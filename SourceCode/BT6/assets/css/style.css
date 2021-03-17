@@ -16,3 +16,12 @@ ul {
 .header {
     height: 74px;
 }
+
+.navbar-nav {
+    border: 0.9px solid #ccc;
+    border-radius: 3px;
+}
+
+.nav-link {
+    padding: 10px 20px;
+}
