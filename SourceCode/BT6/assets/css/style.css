@@ -6,22 +6,46 @@
     box-sizing: border-box;
 }
 
-ul {
-    list-style: none;
+
+/* App */
+
+.app {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
 }
 
-
-/* Header */
-
-.header {
-    height: 74px;
+button+button {
+    margin: 0 8px;
 }
 
-.navbar-nav {
-    border: 0.9px solid #ccc;
-    border-radius: 3px;
+input {
+    width: 50%;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border-color: #ccc;
 }
 
-.nav-link {
-    padding: 10px 20px;
+.btn-group {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.sub {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
